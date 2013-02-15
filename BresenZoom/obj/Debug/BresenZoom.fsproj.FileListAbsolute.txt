@@ -1,0 +1,11 @@
+F:\.NET Problems\BresenZoom\BresenZoom\bin\Debug\BresenZoom.exe.config
+F:\.NET Problems\BresenZoom\BresenZoom\bin\Debug\BresenZoom.XML
+F:\.NET Problems\BresenZoom\BresenZoom\bin\Debug\BresenZoom.exe
+F:\.NET Problems\BresenZoom\BresenZoom\bin\Debug\BresenZoom.pdb
+F:\.NET Problems\BresenZoom\BresenZoom\bin\Debug\FSharp.Core.dll
+F:\.NET Problems\BresenZoom\BresenZoom\bin\Debug\OpenTK.dll
+F:\.NET Problems\BresenZoom\BresenZoom\bin\Debug\FSharp.Core.xml
+F:\.NET Problems\BresenZoom\BresenZoom\bin\Debug\OpenTK.xml
+F:\.NET Problems\BresenZoom\BresenZoom\obj\Debug\BresenZoom.fsprojResolveAssemblyReference.cache
+F:\.NET Problems\BresenZoom\BresenZoom\obj\Debug\BresenZoom.exe
+F:\.NET Problems\BresenZoom\BresenZoom\obj\Debug\BresenZoom.pdb

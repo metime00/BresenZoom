@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>BresenZoom</name></assembly>
+<members>
+<member name="M:BresenAlgorithms.listpoint(System.Drawing.Bitmap,System.Int32,System.Int32,System.Int32)">
+<summary>
+returns a list of points of a circle
+</summary>
+</member>
+<member name="M:BresenAlgorithms.bresenList(System.Drawing.Bitmap,System.Int32,System.Int32,System.Int32,System.Int32)">
+<summary>
+returns a list of visible points given a destination and a startpoint
+</summary>
+</member>
+<member name="M:BresenAlgorithms.midpoint(System.Drawing.Bitmap,System.Int32,System.Int32,System.Int32,System.Int32)">
+<summary>
+uses the midpoint circle algorithm to draw a rasterized circle on a bitmap given two coordinates, the first being the midpoint, the second is used to create the radius
+</summary>
+</member>
+<member name="M:BresenAlgorithms.bresenham(System.Drawing.Bitmap,System.Int32,System.Int32,System.Int32,System.Int32)">
+<summary>
+Bresenham algorithm takes two points and a bitmap and draws a line on it
+</summary>
+</member>
+<member name="T:BresenAlgorithms">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:BresenZoom.Program">
+
+</member>
+<member name="F:Origin.Origin.visiblePixels">
+<summary>
+array of currently visible pixels
+</summary>
+</member>
+<member name="F:Origin.Origin.pY">
+<summary>
+Y coord of the point of origin, used for line of sight
+</summary>
+</member>
+<member name="F:Origin.Origin.pX">
+<summary>
+X coord of the point of origin, used for line of sight
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="P:Origin.Origin.Y(System.Int32)">
+<summary>
+Y coord of the vision point of origin
+</summary>
+</member>
+<member name="P:Origin.Origin.X(System.Int32)">
+<summary>
+X coord of the vision point of origin
+</summary>
+</member>
+<member name="M:Origin.Origin.memoDraw(System.Drawing.Bitmap,System.Tuple{System.Int32,System.Int32}[])">
+<summary>
+draws the line of sight using a memo
+</summary>
+</member>
+<member name="P:Origin.Origin.Y">
+<summary>
+Y coord of the vision point of origin
+</summary>
+</member>
+<member name="P:Origin.Origin.X">
+<summary>
+X coord of the vision point of origin
+</summary>
+</member>
+<member name="P:Origin.Origin.Size">
+<summary>
+width of the vision field, it looks like a laser
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="M:Origin.Origin.drawLoS(System.Drawing.Bitmap,System.Tuple{System.Int32,System.Int32})">
+<summary>
+takes a bitmap and a point and redraws the line of sight, returning the bitmap, and only redrawing the pixels where their visibility state has changed
+</summary>
+</member>
+<member name="M:Origin.Origin.clean(System.Drawing.Bitmap)">
+<summary>
+takes a bitmap and returns the bitmap cleaned of all LoS pixels
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="T:Origin.Origin">
+<summary>
+handles bitmap drawing for line of sight, storage of currently visible points and all other line of sight operations
+</summary>
+</member>
+<member name="T:Origin">
+
+</member>
+<member name="">
+
+</member>
+<member name="F:Window.Window.mit">
+<summary>
+main bitmap
+</summary>
+</member>
+<member name="F:Window.Window.ctrl">
+<summary>
+if ctrl is down, handles raytracing functionality
+</summary>
+</member>
+<member name="F:Window.Window.alt">
+<summary>
+if alt is down, handles squiggly lines
+</summary>
+</member>
+<member name="F:Window.Window.downRight">
+<summary>
+if right mouse button is down, handles supplementary drawing
+</summary>
+</member>
+<member name="F:Window.Window.downLeft">
+<summary>
+if the left mouse button is down, handles general drawing
+</summary>
+</member>
+<member name="F:Window.Window.y">
+<summary>
+original Y coord
+</summary>
+</member>
+<member name="F:Window.Window.x">
+<summary>
+original X coord
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="F:Window.Window.field">
+<summary>
+LoS radius constant
+</summary>
+</member>
+<member name="F:Window.Window.res">
+<summary>
+resolution constant
+</summary>
+</member>
+<member name="F:Window.Window.yoffset">
+<summary>
+the y offset of the bounding box
+</summary>
+</member>
+<member name="F:Window.Window.xoffset">
+<summary>
+the x offset of the bounding box
+</summary>
+</member>
+<member name="F:Window.Window.memo">
+<summary>
+the memoization of line of sight
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Window">
+
+</member>
+</members>
+</doc>
