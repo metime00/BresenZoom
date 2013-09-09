@@ -9,3 +9,13 @@ F:\.NET Problems\BresenZoom\BresenZoom\bin\Release\OpenTK.xml
 F:\.NET Problems\BresenZoom\BresenZoom\obj\Release\BresenZoom.fsprojResolveAssemblyReference.cache
 F:\.NET Problems\BresenZoom\BresenZoom\obj\Release\BresenZoom.exe
 F:\.NET Problems\BresenZoom\BresenZoom\obj\Release\BresenZoom.pdb
+C:\Users\John Herman\Desktop\Programming\BresenZoom\BresenZoom\bin\Release\BresenZoom.exe.config
+C:\Users\John Herman\Desktop\Programming\BresenZoom\BresenZoom\bin\Release\BresenZoom.XML
+C:\Users\John Herman\Desktop\Programming\BresenZoom\BresenZoom\bin\Release\BresenZoom.exe
+C:\Users\John Herman\Desktop\Programming\BresenZoom\BresenZoom\bin\Release\BresenZoom.pdb
+C:\Users\John Herman\Desktop\Programming\BresenZoom\BresenZoom\bin\Release\FSharp.Core.dll
+C:\Users\John Herman\Desktop\Programming\BresenZoom\BresenZoom\bin\Release\FSharp.Core.xml
+C:\Users\John Herman\Desktop\Programming\BresenZoom\BresenZoom\bin\Release\OpenTK.xml
+C:\Users\John Herman\Desktop\Programming\BresenZoom\BresenZoom\obj\Release\BresenZoom.fsprojResolveAssemblyReference.cache
+C:\Users\John Herman\Desktop\Programming\BresenZoom\BresenZoom\obj\Release\BresenZoom.exe
+C:\Users\John Herman\Desktop\Programming\BresenZoom\BresenZoom\obj\Release\BresenZoom.pdb
